@@ -1,4 +1,4 @@
-# Consola_Virtual
+#Consola_Virtual
 <p>-Tarea: Consola Virtual Nintendo DS Lite</p>
 <p>-Creado con HTML5 y CSS (Visual Studio Code)</p>
 <p>-Métodos FLEX y GRID</p>
