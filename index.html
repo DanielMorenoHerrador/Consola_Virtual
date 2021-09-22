@@ -5,28 +5,50 @@
     <title>Mi consola virtual</title>
     <meta charset="utf-8">
     <meta lang="es">
+    <!-- Estilos propios -->
     <link href="/Consola_Virtual/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Estilos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="container">
-        <div id="head"></div>
-        <div id="body">
-            <div id="body-sup">
-                <div id="container-sup">
-                    <div id="altavoz1"><img src="/Items img/altavoces.jpg" alt="altavoz1" style="padding-left: 50px;"></div>
-                    <div id="pantalla"><img src="/Items img/pantalla.jpg" alt="pantalla" style="padding-right: 50px;"></div>
-                    <div id="altavoz2"><img src="/Items img/altavoces.jpg" alt="altavoz2" style="padding-left: 50px;"></div>
-                </div>
+    <div class="container">
+        <div class="head">
+            <div class="col col-izq">
+                <div id="altavoz1"><img src="/Consola_Virtual/Items img/altavoces.jpg" alt="altavoz" width="80" height="60"></div>
             </div>
-            <div id="body-center">
-                <div id="visagra"></div>
+            <div class="col col-med">
+                <div id="pantalla"><img src="/Consola_Virtual/Items img/pantalla.jpg" alt="pantalla" width="300" height="250"></div>
             </div>
-            <div id="body-footer">
-                <div id="container-foot"></div>
+            <div class="col col-der">
+                <div id="altavoz2"><img src="/Consola_Virtual/Items img/altavoces.jpg" alt="altavoz" width="80" height="60"></div>
             </div>
         </div>
-        <div id="footer"></div>
+        <div class="body">
+            <div class="col col-izq"></div>
+            <div class="col col-med">
+                <div id="microfono"><img src="/Consola_Virtual/Items img/microfono.jpg" alt="microfono" width="7"></div>
+            </div>
+            <div class="col col-der">
+                <div id="power"><img src="/Consola_Virtual/Items img/power.jpg" alt="power" height="23"></div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="col col-izq">
+                <div id="cruceta"><img src="/Consola_Virtual/Items img/cruceta.jpg" alt="cruceta" height="90"></div>
+            </div>
+            <div class="col col-med">
+                <div id="pantalla-inf"><img src="/Consola_Virtual/Items img/pantalla inf.jpg" alt="pantalla inf" height="250" width="300"></div>
+            </div>
+            <div class="col col-der">
+                <div id="botones"><img src="/Consola_Virtual/Items img/botones.jpg" alt="botones" width="100"></div>
+                <div id="start"><img src="/Consola_Virtual/Items img/start select.jpg" alt="start" width="70"></div>
+            </div>
+        </div>
     </div>
 </body>
 
