@@ -3,7 +3,7 @@
 
 -Creado con HTML5 y CSS (Visual Studio Code)
 
--Métodos FLEX y GRID
+-Maquetado con FLEX y GRID
 
 -Autor: Daniel Moreno Herrador
 </head>
