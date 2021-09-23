@@ -1,4 +1,4 @@
-<head>
+# Consola Virtual NDS
 -Tarea: Consola Virtual Nintendo DS Lite
 
 -Creado con HTML5 y CSS (Visual Studio Code)
