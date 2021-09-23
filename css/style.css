@@ -1,3 +1,4 @@
+/* Contenedor principal */
 .container {
     background-color: white;
     height: 80vh;
@@ -7,6 +8,7 @@
     justify-content: center;
 }
 
+/* Cuerpo consola */
 .head {
     background-color: rgb(61, 61, 61);
     height: 35.5vh;
@@ -37,6 +39,8 @@
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+
+/* Elementos pantalla superior */
 #altavoz1 {
     display: flex;
     flex-direction: column;
@@ -62,6 +66,7 @@
     justify-content: center;
 }
 
+/* Elementos visagra */
 #microfono{ 
     display: flex;
     flex-direction: column;
@@ -79,6 +84,7 @@
     margin-right: 4mm;
 }
 
+/* Elementos pantalla inferior */
 #cruceta {
     display: flex;
     flex-direction: column;
